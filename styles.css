@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #ff9d9d, #ffffff);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+  }
+  
+  .top-center-img {
+    display: block;
+    margin: 40px auto 10px auto; /* top and bottom spacing */
+    width: 300px;
+  }
+  
+  h3 {
+    margin: -100; /* No margin, so it's right under the image */
+  }
+  
+  button {
+    width: 300px;
+    height: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    background: linear-gradient(to left, #ff5151, #ffa4a4);
+    transition: transform 0.2s ease;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 500;
+    margin: 10px auto; /* Space between stacked buttons */
+}
+
+button:first-of-type {
+  margin-top: 200px; /* Keeps the original margin-top for the first button */
+}
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
